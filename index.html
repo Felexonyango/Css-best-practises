@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> css grid</title>
+
+            <style>
+           .wrapper{
+               display: grid;
+               grid-template-columns: 70% 30%;
+               /*
+               grid-column-gap: 1em;
+               grid-row-gap: 1em;
+*/
+             grid-gap: 1em;
+           }
+           .wrapper >div{
+               background: #eee;
+               padding: 1em;
+           }
+           .wrapper>div:nth-child(odd){
+               background: #ddd;
+           }
+            </style>
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat eos aperiam, nisi minus ipsa aliquid itaque neque earum quos quibusdam adipisci, voluptatibus, sint unde tempore nulla velit distinctio necessitatibus culpa? Rem deleniti cumque, numquam molestias, unde, aspernatur magni fuga porro veritatis id vero? Recusandae officiis, a dolores magni earum necessitatibus qui dolor facere nostrum eos quaerat perspiciatis! Qui nam error id a mollitia ipsam ullam ab dolorem libero distinctio, numquam, quas asperiores, ad inventore? Et, consectetur. Fuga doloribus voluptatum iusto?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos pariatur culpa iusto dignissimos tempora ullam hic, magnam quod perspiciatis corrupti delectus. Voluptatibus accusamus similique molestias architecto neque ipsam exercitationem quidem quia saepe reprehenderit ducimus pariatur eius maiores quae sunt culpa, nihil quis dolorum? Et fugit qui nemo dignissimos hic.
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat eos aperiam, nisi minus ipsa aliquid itaque neque earum quos quibusdam adipisci, voluptatibus, sint unde tempore nulla velit distinctio necessitatibus culpa? Rem deleniti cumque, numquam molestias, unde, aspernatur magni fuga porro veritatis id vero? Recusandae officiis, a dolores magni earum necessitatibus qui dolor facere nostrum eos quaerat perspiciatis! Qui nam error id a mollitia ipsam ullam ab dolorem libero distinctio, numquam, quas asperiores, ad inventore? Et, consectetur. Fuga doloribus voluptatum iusto?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos pariatur culpa iusto dignissimos tempora ullam hic, magnam quod perspiciatis corrupti delectus. Voluptatibus accusamus similique molestias architecto neque ipsam exercitationem quidem quia saepe reprehenderit ducimus pariatur eius maiores quae sunt culpa, nihil quis dolorum? Et fugit qui nemo dignissimos hic.
+            </div>
+           
+        </div>
+    </body>
+</html>
